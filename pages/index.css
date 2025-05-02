@@ -116,6 +116,15 @@
 .recipes__title {
   margin: 0 0 24px;
   max-width: 580px;
+  font-family: Inter;
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 44px;
+
+  line-height: 52px;
 }
 
 .recipes__subtitle {
@@ -152,4 +161,106 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
+}
+
+.reservation {
+  background: center / cover no-repeat #d9e7ff
+    url(../images/background_reservation.svg);
+  padding: 100px 0 120px;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__label {
+  color: #000000;
+  font-family: Inter;
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 20px;
+}
+
+.form__input {
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  margin: 8px 0 32px;
+  border: 1px solid #838383;
+  color: #000000;
+}
+
+.form__button {
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  border: none;
+  padding: 20px 0;
+  margin-bottom: 32px;
+  background-color: #1878dc;
+  transition: background-color 0.5s ease;
+  color: #fff;
+  font-family: Inter;
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 20px;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+}
+
+.form__checkbox {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background: #187bdc url(../images/check.svg);
+  color: #000000;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.placeholder {
+  color: #838383;
+  font-family: Inter;
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  font-size: 20px;
+
+  line-height: 30px;
 }
