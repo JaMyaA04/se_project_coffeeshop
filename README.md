@@ -14,4 +14,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-I would like to add an elemtn in the corner of the form or somewhere on the viewscreen that informs the viewer that in the infomation has been saved successfully. an email or textmessage for confimartion to be sent after the form is complated also sounds like a productive addition.
+I would like to add an element in the corner of the form or somewhere on the viewscreen that informs the viewer that in the information has been saved successfully. An email or text message for conformation to be sent after the form is completed also sounds like a productive addition.
